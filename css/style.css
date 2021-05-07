@@ -1,0 +1,658 @@
+@font-face 
+{
+	font-family: 'Exo-Black';
+	src: url('../fonts/Exo-Black.otf');
+}
+
+@font-face 
+{
+	font-family: 'Exo-Medium';
+	src: url('../fonts/Exo-Medium.otf');
+}
+
+@font-face 
+{
+	font-family: 'Exo-Bold';
+	src: url('../fonts/Exo-Bold.otf');
+}
+
+@font-face 
+{
+	font-family: 'SourceSansPro-Bold';
+	src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+@font-face 
+{
+	font-family: 'SourceSansPro-Regular';
+	src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+
+body 
+{
+	background-image: url("../images/congruent_outline.png");
+}
+
+.body
+{
+	background-image: url("../images/greyzz.png");
+	border: 5px solid #333333;
+}
+
+.vbody
+{
+	background-image: url("../images/greyzz.png");
+	border: 5px solid #333333;
+}
+
+.hbody
+{
+	background-image: url("../images/greyzz.png");
+	border: 5px solid #333333;
+}
+
+.top
+{
+	background-image: url("../images/brickwall.png");
+	height: 180px;
+}
+
+.head
+{
+	background-color: white;
+	border: 4px solid #333333;
+	margin: 15px 180px 10px 10px;
+	
+	
+}
+
+.icon
+{
+	float:left;
+	padding: 10px 0 10px 15px;
+	
+}
+
+.title
+{
+	float:left;
+}
+
+#mountvernon
+{
+	float:left;
+	font-family: Exo-Black;
+	font-size: 40px;
+	color: #336699;
+	padding: 20px 0 0 20px;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	font-family: Exo-Black;
+}
+
+#phone
+{
+	font-family: Exo-Medium;
+	font-size:30px;
+	color: #404040;
+	padding: 0 0 0 20px;
+	line-height: .5;
+	
+}
+  
+#email a
+{
+	text-decoration: none;
+	font-family: Exo-Medium;
+	font-size: 20px;
+	color: #336699;
+	line-height: 2;
+	padding: 0 0 0 20px;
+	
+}
+ 
+
+.body
+{
+	background-color:white;
+}
+
+.mission
+{
+	font-size: 18px;
+	font-family: SourceSansPro-Regular;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.mission p
+{
+	margin: 30px 80px 30px 80px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #404040;
+	border-bottom: 3px solid #c74534;
+}
+
+.left
+{
+	padding-left: 10px;
+	margin-right: -10px;
+}
+
+.left ul
+{
+	padding: 30px 30px 40px 50px;
+	border-radius: 10px;
+	border:5px solid #404040;
+	background-color: white;
+	box-shadow:0 0 3px #707070;
+}
+
+.left li
+{
+	margin: 10px 0 30px 0;
+	list-style-type: disc;
+	font-family: SourceSansPro-Regular;
+	color:#404040;
+	font-size: 18px;
+	
+}
+
+
+#areas
+{
+	margin: 0 20px 70px 20px;
+	border:5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#areas h1
+{
+	font-family: Exo-Medium;
+	font-size: 20px;
+	color: #336699;
+	padding: 15px 0 15px 10px;
+	text-transform: uppercase;
+}
+
+#areas p
+{
+	font-size: 18px;
+	padding: 0 10px 10px 17px;
+	font-family: SourceSansPro-Regular;
+	color: #404040;
+	border-bottom: 5px solid #404040;
+
+}
+#boldredwords
+{
+	font-family: SourceSansPro-Regular;
+	font-size: 18px;
+	color: #c74534;
+	font-weight: bold;
+}
+.bottom
+{
+	background: #c74534;
+	border-top: 2px solid #333333;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.bottom h1
+{
+	font-size: 20px;
+	font-family:SourceSansPro-Regular;
+	color: white;
+}
+
+.bottom h2 
+{
+	font-size: 16px;
+	font-family:SourceSansPro-Regular;
+	color: white;
+	text-decoration:none;
+}
+
+.bottom h2 a
+{
+	color:white;
+	text-decoration:none;
+}
+
+
+#footer
+{
+padding: 0 0 20px 0;
+}
+#footer ul 
+{
+  list-style: none;
+  line-height: 1;
+  display: block;
+  text-align:center;
+}
+
+#footer ul li 
+{
+  display: inline-block;
+}
+
+#footer ul li a 
+{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  font-family: Exo-Medium;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+}
+
+/* Virus Removal Page */
+
+.vtop
+{
+	text-align: center;
+	width: 640px;
+	padding-bottom: 30px;
+	}
+
+.vtop p
+{
+	font-family:SourceSansPro-Regular;
+	font-size:20px;
+	color: #404040;
+	margin: 40px 80px 20px 80px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #c74534;
+}
+
+.vleft
+{
+	padding-left: 20px;
+	padding-bottom: 120px;
+}
+
+.vleft ul
+{
+	padding: 35px 30px 40px 40px;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	background-color: white;
+}
+
+.vleft li
+{
+	margin: 10px 0 30px 0;
+	list-style-type: disc;
+	font-family: SourceSansPro-Regular;
+	color:#404040;
+	font-size: 18px;
+	
+}
+
+.vright
+{
+	text-align: center;
+	margin-left: 33px
+}
+
+.vright h1
+{
+	font-family: SourceSansPro-Regular;
+	font-size: 20px;
+	color: #404040;
+	
+}
+
+.vright p
+{
+	font-family: SourceSansPro-Regular;
+	font-size: 16px;
+	color: #c74534;
+}
+
+#vscam1
+{
+	margin: 20px 0 20px 0;
+	border: 3px solid #202020;
+}
+
+#vscam2
+{
+	margin: 20px 0 20px 0;
+	border: 3px solid #202020;
+}
+
+#vscam3
+{
+	margin: 20px 0 70px 0;
+	border: 3px solid #202020;
+}
+
+/* Hardware Repair Page */
+.htop
+{
+	text-align: center;
+	width: 640px;
+	padding-bottom: 30px;
+}
+
+.htop p
+{
+	font-family:SourceSansPro-Regular;
+	font-size:20px;
+	color: #404040;
+	margin: 40px 80px 20px 80px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #c74534;
+}
+
+.hleft
+{
+	padding-left: 20px;
+	padding-bottom: 120px;
+}
+
+.hleft ul
+{
+	padding: 35px 30px 40px 40px;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	background-color: white;
+}
+
+.hleft li
+{
+	margin: 10px 0 30px 0;
+	list-style-type: disc;
+	font-family: SourceSansPro-Regular;
+	color:#404040;
+	font-size: 18px;
+	
+}
+
+.hright
+{
+	background-color: white;
+	font-family:SourceSansPro-Regular;
+	text-align: center;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	margin: 0 0 50px 30px;
+	
+}
+
+.hright a
+{
+	text-decoration: none;
+	color:#404040;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.hright h2
+{
+	border-top: 5px solid #404040;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #404040;
+	font-size: 24px;
+	color: #336699;
+}
+
+.hright p
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	color: #336699;
+	font-weight: bold;
+}
+
+#comp
+{
+	padding-bottom: 30px;
+}
+
+#cpu
+{
+	padding-bottom: 25px;
+}
+
+#mobo
+{
+	padding: 10px 0 30px 0;
+}
+
+#gpu
+{
+	padding: 20px 0 30px 0;
+}
+
+#ram
+{
+	margin-top: -5px;
+	padding: 20px 0 40px 0;
+}
+
+#hdd
+{
+	padding: 0 0 30px 20px;
+}
+
+#optical
+{
+	padding: 20px 0 30px 0;
+}
+
+/* Tune Up */
+.tbody
+{
+	background-image: url("../images/greyzz.png");
+	border: 5px solid #333333;
+}
+.ttop
+{
+	text-align: center;
+	width: 640px;
+	padding-bottom: 30px;
+}
+
+.ttop p
+{
+	font-family:SourceSansPro-Regular;
+	font-size:20px;
+	color: #404040;
+	margin: 40px 80px 20px 80px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #c74534;
+}
+
+.tleft
+{
+	padding-left: 20px;
+	padding-bottom: 120px;
+}
+
+.tleft ul
+{
+	padding: 35px 40px 40px 40px;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	background-color: white;
+}
+
+.tleft li
+{
+	margin: 10px 0 30px 0;
+	list-style-type: disc;
+	font-family: SourceSansPro-Regular;
+	color:#404040;
+	font-size: 18px;
+	
+}
+
+.tright
+{
+	
+	background-color: white;
+	font-family:SourceSansPro-Regular;
+	text-align: center;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	margin: 0 0 90px 30px;
+	
+}
+
+
+.tright h2
+{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #404040;
+	font-size: 24px;
+	color: #336699;
+	border-top: 5px solid #404040;
+}
+
+.tright p
+{
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	color: #404040;
+	
+}
+
+#cccleaner
+{
+	border: 3px solid #202020;
+	margin: 5px 0 25px 0;
+
+}
+
+#auslogics
+{
+	border: 3px solid #202020;
+	margin: 5px 0 25px 0;
+}
+
+#revo
+{
+	border: 3px solid #202020;
+	margin: 5px 0 55px 0;
+}
+
+/* Contact */
+
+.cbody
+{
+	background-image: url("../images/greyzz.png");
+	border: 5px solid #333333;
+}
+
+
+.cinfo
+{
+	text-align: center;
+	background-color: white;
+	font-family:SourceSansPro-Regular;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	margin: 70px 0 40px 30px;
+	
+}
+
+.cinfo h1
+{
+	padding: 15px 0 5px 0;
+	font-size: 24px;
+	color: #336699;
+	font-weight: bold;
+	
+}
+
+.cinfo h2
+{
+	
+	font-size: 16px;
+	color: #404040;
+	
+}
+
+.cinfo p 
+{
+	
+	padding: 0 0 20px 0;
+	font-size: 24px;
+	color: #c74534;
+	
+	
+}
+
+.cinfo p a
+{
+	text-decoration: none;
+	font-size: 24px;
+	color: #c74534;
+	
+	
+}
+
+.cinfo h3 
+{
+
+	padding: 10px 0 10px 0;
+	font-size: 34px;
+	color: #c74534;
+	
+}
+
+.cbottom
+{
+	margin: 50px 0 0 20px;
+	padding-left: 20px;
+	padding-bottom: 120px;
+}
+
+.cbottom ul
+{
+	padding: 35px 20px 40px 40px;
+	border-radius: 10px;
+	border: 5px solid #404040;
+	box-shadow:0 0 3px #707070;
+	background-color: white;
+}
+
+.cbottom li
+{
+	margin: 10px 0 30px 0;
+	list-style-type: disc;
+	font-family: SourceSansPro-Regular;
+	color:#404040;
+	font-size: 18px;
+	
+}
+
+#me
+{
+	box-shadow:0 0 3px #707070;
+	border-radius:3px;
+	margin:  50px 0 0 70px;
+	border: 4px solid #303030;
+}
